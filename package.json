@@ -1,0 +1,12 @@
+{
+  "name": "izar-security",
+  "version": "1.0.0",
+  "description": "Security tooling and patterns from a production payments marketplace",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "scan": "node tools/scan-secrets.mjs --all"
+  },
+  "license": "MIT"
+}

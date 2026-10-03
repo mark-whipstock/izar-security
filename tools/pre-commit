@@ -1,0 +1,4 @@
+#!/bin/sh
+# Secret scan on staged content. Enable once per clone:
+#   git config core.hooksPath tools
+node tools/scan-secrets.mjs
