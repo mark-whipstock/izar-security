@@ -98,7 +98,7 @@ npm test                            # run the tests
 node tools/scan-secrets.mjs --all   # scan the working tree
 ```
 
-Requires Node 20+. No other dependencies.
+Requires Node 22+. No other dependencies.
 
 ---
 
